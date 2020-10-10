@@ -25,9 +25,9 @@ function Chat() {
       .doc(channelId)
       .collection('messages')
       .orderBy('timestamp', 'desc')
-      .onSnapshot((snapshot) => (
+      .onSnapshot((snapshot) => 
       setMessages(snapshot.docs.map((doc) => doc.data()))
-    ));
+    );
    }
   }, [channelId]);
 
@@ -51,7 +51,7 @@ function Chat() {
       <ChatHeader channelName={channelName} />
 
       <div className="chat__Messages">
-        {messages.map(message => (
+        {messages.map((message) => (
           <Message 
           timestamp = {message.timestamp}
           message = {message.msssage}
