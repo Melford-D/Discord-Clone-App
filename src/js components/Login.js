@@ -1,7 +1,7 @@
 import { Button } from '@material-ui/core';
 import { auth, provider } from "./firebase";
 import React from 'react';
-import "./Login.css";
+import "../style components/Login.css";
 
 function Login() {
  const signIn = () => {

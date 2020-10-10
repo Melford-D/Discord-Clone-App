@@ -1,5 +1,5 @@
 import React from "react";
-import "./Sidebar.css";
+import "../style components/Sidebar.css";
 import AddIcons from "@material-ui/icons/Add";
 import CallIcon from "@material-ui/icons/Call";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
@@ -11,7 +11,7 @@ import MicIcon from "@material-ui/icons/Mic";
 import HeadsetIcon from "@material-ui/icons/Headset";
 import SettingsIcon from "@material-ui/icons/Settings";
 import { useSelector } from "react-redux";
-import { selectUser } from "./features/userSlice";
+import { selectUser } from "../features/userSlice";
 import { auth } from "./firebase";
 
 function Sidebar() {

@@ -1,8 +1,8 @@
 import { Avatar } from '@material-ui/core'
 import React from 'react'
-import "./Message.css";
+import "../style components/Message.css";
 import { useSelector } from "react-redux";
-import { selectUser } from "./features/userSlice";
+import { selectUser } from "../features/userSlice";
 
 function Message() {
     const user = useSelector(selectUser);

@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import "./App.css";
-import Chat from "./Chat";
-import Sidebar from "./Sidebar";
-import { selectUser } from "./features/userSlice";
-import Login from "./Login";
-import { auth } from "./firebase";
-import { login, logout } from "./features/userSlice";
+import "../style components/App.css";
+import Chat from "../js components/Chat";
+import Sidebar from "../js components/Sidebar";
+import { selectUser } from "../features/userSlice";
+import Login from "../js components/Login";
+import { auth } from "../js components/firebase";
+import { login, logout } from "../features/userSlice";
 
 function App() {
   const dispatch = useDispatch();
