@@ -54,7 +54,7 @@ function Chat() {
         {messages.map((message) => (
           <Message 
           timestamp = {message.timestamp}
-          message = {message.msssage}
+          message = {message.message}
           user = {message.user}
           />
         ))}

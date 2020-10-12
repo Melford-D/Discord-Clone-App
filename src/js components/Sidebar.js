@@ -41,7 +41,7 @@ function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebar__top">
-        <h3>hello from Melford</h3>
+        <h4>hello from Melford </h4>
         <ExpandMoreIcon />
       </div>
 
