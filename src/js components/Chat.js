@@ -46,6 +46,8 @@ function Chat() {
       setInput("");
   };
 
+
+
   return (
     <div className="chat">
       <ChatHeader channelName={channelName} />
